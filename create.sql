@@ -35,7 +35,7 @@ create table if not exists Collections (
 create table if not exists Tracks (
 	id SERIAL primary key,
 	track_name VARCHAR (40) not null,
-	duration INTEGER not null,
+	duration TIME not null,
 	album_id INTEGER not null references Albums(id)
 );
 

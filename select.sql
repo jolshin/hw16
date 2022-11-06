@@ -5,7 +5,7 @@ select track_name, duration from tracks
 where duration = (select MAX(duration) from tracks);
 
 select track_name from tracks
-where duration >= 3.5 * 60;
+where duration >= '00:03:30';
 
 select collection_name from collections
 where collection_year between 2018 and 2020;

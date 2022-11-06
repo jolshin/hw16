@@ -2,13 +2,13 @@
 -- insert GENRES--------------------------
 
 insert into genres 
-values(1, 'classical');;
+values(1, 'classical');
 
 insert into genres 
-values(2, 'pop');;
+values(2, 'pop');
 
 insert into genres 
-values(3, 'rock');;
+values(3, 'rock');
 
 insert into genres 
 values(4, 'jazz');
@@ -72,49 +72,49 @@ values(8, 'My 19th century', 1901);
 --insert TRACKS--------------------------
 
 insert into tracks 
-values(1, 'Мой игра', 140, 1);
+values(1, 'Мой игра', '00:02:10', 1);
 
 insert into tracks 
-values(2, 'What a Wonderful Workd', 150, 2);
+values(2, 'What a Wonderful Workd', '00:02:25', 2);
 
 insert into tracks 
-values(3, 'Highway to Hell', 145, 3);
+values(3, 'Highway to Hell', '00:01:55', 3);
 
 insert into tracks 
-values(4, 'My ducks flu to South', 220, 4);
+values(4, 'My ducks flu to South', '00:02:31', 4);
 
 insert into tracks 
-values(5, 'Шахеризада', 3120, 8);
+values(5, 'Шахеризада', '00:52:10', 8);
 
 insert into tracks 
-values(6, 'Полет шмеля', 100, 8);
+values(6, 'Полет шмеля', '00:01:41', 8);
 
 insert into tracks 
-values(7, 'Сказка о царе Салтане', 9420, 8);
+values(7, 'Сказка о царе Салтане', '02:37:43', 8);
 
 insert into tracks 
-values(8, 'Гуф умер', 130, 5);
+values(8, 'Гуф умер', '00:01:45', 5);
 
 insert into tracks 
-values(9, 'ЧП', 135, 6);
+values(9, 'ЧП', '00:02:03', 6);
 
 insert into tracks 
-values(10, 'Город дорог', 125, 7);
+values(10, 'Город дорог', '00:02:13', 7);
 
 insert into tracks 
-values(11, 'Russian Paradise', 130, 1);
+values(11, 'Russian Paradise', '00:01:54', 1);
 
 insert into tracks 
-values(12, 'No Pasaran!!!', 135, 2);
+values(12, 'No Pasaran!!!', '00:02:07', 2);
 
 insert into tracks 
-values(13, 'TRAP', 120, 3);
+values(13, 'TRAP', '00:02:02', 3);
 
 insert into tracks 
-values(14, 'Лирика', 135, 4);
+values(14, 'Лирика', '00:03:01', 4);
 
 insert into tracks 
-values(15, '30 лет', 140, 5);
+values(15, '30 лет', '00:02:34', 5);
 
 --insert COLLECTIONS--------------------------
 
